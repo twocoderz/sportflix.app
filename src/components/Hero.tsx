@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="accueil"
-      className="mx-auto flex max-w-8xl flex-col-reverse items-center gap-16 px-6 pb-12 lg:pb-48 pt-40 lg:flex-row lg:pt-48"
+      className="mx-auto flex max-w-8xl flex-col-reverse items-center gap-16 px-6 pb-12 lg:pb-40 pt-40 lg:flex-row lg:pt-48"
     >
       <div className="w-full lg:w-1/2">
         {/* On va mettre une video ici */}

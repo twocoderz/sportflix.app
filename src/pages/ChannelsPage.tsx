@@ -8,9 +8,6 @@ export default function ChannelsPage() {
       <Header />
       <main className="mx-auto max-w-6xl px-6 pb-24 pt-36">
         <header className="max-w-2xl">
-          <p className="font-mono text-xs uppercase tracking-widest text-(--text-muted)">
-            // Le catalogue Animeflix
-          </p>
           <h1 className="mt-4 font-display text-4xl font-medium leading-tight tracking-tight text-(--text) sm:text-6xl">
             Toutes les chaînes
           </h1>
