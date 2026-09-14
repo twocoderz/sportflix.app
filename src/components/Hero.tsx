@@ -42,7 +42,7 @@ export default function Hero() {
         <div className="mt-8">
           <a
             href="https://github.com/twocoderz/sportflix.app/releases/latest/download/sportflix.apk"
-            className="inline-flex rounded-full bg-(--primary) px-8 py-4 text-xl font-medium text-white transition-opacity hover:opacity-90"
+            className="inline-flex bg-(--primary) px-12 py-4 text-xl font-medium text-white transition-opacity hover:opacity-90"
           >
             Télécharger l'apk
           </a>

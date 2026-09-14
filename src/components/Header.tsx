@@ -39,7 +39,7 @@ export default function Header() {
             <ThemeToggle />
             <a
               href="https://github.com/twocoderz/sportflix.app/releases/latest/download/sportflix.apk"
-              className="rounded-full bg-(--primary) px-6 py-4 text-xl font-medium text-white transition-opacity hover:opacity-90"
+              className="bg-(--primary) px-6 py-4 text-xl font-medium text-white transition-opacity hover:opacity-90"
             >
               Télécharger l'apk
             </a>
@@ -78,7 +78,7 @@ export default function Header() {
             <ThemeToggle />
             <a
               href="https://github.com/twocoderz/sportflix.app/releases/latest/download/sportflix.apk"
-              className="rounded-full bg-(--primary) px-6 py-4 text-xl font-medium text-white"
+              className="bg-(--primary) px-6 py-4 text-xl font-medium text-white"
             >
               Télécharger l'apk
             </a>
