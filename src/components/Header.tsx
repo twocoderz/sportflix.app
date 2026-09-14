@@ -39,7 +39,7 @@ export default function Header() {
             <ThemeToggle />
             <a
               href="#telecharger"
-              className="rounded-full bg-(--text) px-6 py-4 text-lg font-medium text-(--bg) transition-opacity hover:opacity-90"
+              className="rounded-full bg-(--primary) px-6 py-4 text-lg font-medium text-black transition-opacity hover:opacity-90"
             >
               Télécharger l'apk
             </a>
@@ -51,7 +51,7 @@ export default function Header() {
           onClick={() => setOpen((v) => !v)}
           aria-label="Ouvrir le menu"
         >
-          {open ? <X size={20} /> : <Menu size={20} />}
+          {open ? <X size={32} /> : <Menu size={32} />}
         </button>
       </div>
 
@@ -64,7 +64,7 @@ export default function Header() {
                 to={link.href}
                 end={link.href === "/"}
                 className={({ isActive }) =>
-                  `text-sm transition-colors hover:text-(--text) ${
+                  `text-xl transition-colors hover:text-(--text) ${
                     isActive ? "text-(--text)" : "text-(--text-muted)"
                   }`
                 }
@@ -78,7 +78,7 @@ export default function Header() {
             <ThemeToggle />
             <a
               href="#telecharger"
-              className="rounded-full bg-(--text) px-4 py-2 text-sm font-medium text-(--bg)"
+              className="rounded-full bg-(--text) px-6 py-4 text-xl font-medium text-(--bg)"
             >
               Télécharger l'apk
             </a>
