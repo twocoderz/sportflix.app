@@ -14,16 +14,17 @@ export default function Hero() {
 
       <div className="w-full lg:w-1/2">
         <p className="font-mono text-xs uppercase tracking-widest text-(--text-muted)">
-          // Regardez vos chaînes en direct
+          // Regardez vos matchs en direct
         </p>
 
         <h1 className="mt-4 font-display text-4xl lg:text-7xl font-medium leading-[1.1] tracking-tight text-(--text) max-w-3xl">
-          Vos chaînes préférées, partout avec vous.
+          Le direct foot, 7 championnats en live
         </h1>
 
         <p className="mt-8 max-w-md text-xl leading-relaxed text-(--text-muted)">
-          Accédez au direct et au replay des meilleures chaînes TV en haute
-          définition, sur mobile comme sur le web.
+          Tous les grands matchs en direct. Premier League, La Liga, Ligue 1,
+          Bundesliga, Serie A, Champions League et Europa League. Scores en
+          temps réel et flux HD stables, sans abonnement.
         </p>
 
         <div className="mt-8 flex items-center gap-2">
@@ -40,8 +41,8 @@ export default function Hero() {
 
         <div className="mt-8">
           <a
-            href="#telecharger"
-            className="inline-flex rounded-full bg-(--primary) px-6 py-4 text-xl font-medium text-black transition-opacity hover:opacity-90"
+            href="https://github.com/twocoderz/sportflix.app/releases/latest/download/sportflix.apk"
+            className="inline-flex rounded-full bg-(--primary) px-8 py-4 text-xl font-medium text-white transition-opacity hover:opacity-90"
           >
             Télécharger l'apk
           </a>

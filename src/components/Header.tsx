@@ -25,7 +25,7 @@ export default function Header() {
                 to={link.href}
                 end={link.href === "/"}
                 className={({ isActive }) =>
-                  `text-lg transition-colors hover:text-(--text) ${
+                  `text-xl transition-colors hover:text-(--text) ${
                     isActive ? "text-(--text)" : "text-(--text-muted)"
                   }`
                 }
@@ -38,8 +38,8 @@ export default function Header() {
           <div className="hidden items-center gap-3 md:flex">
             <ThemeToggle />
             <a
-              href="#telecharger"
-              className="rounded-full bg-(--primary) px-6 py-4 text-lg font-medium text-black transition-opacity hover:opacity-90"
+              href="https://github.com/twocoderz/sportflix.app/releases/latest/download/sportflix.apk"
+              className="rounded-full bg-(--primary) px-6 py-4 text-xl font-medium text-white transition-opacity hover:opacity-90"
             >
               Télécharger l'apk
             </a>
@@ -77,8 +77,8 @@ export default function Header() {
           <div className="mt-4 flex items-center justify-between">
             <ThemeToggle />
             <a
-              href="#telecharger"
-              className="rounded-full bg-(--text) px-6 py-4 text-xl font-medium text-(--bg)"
+              href="https://github.com/twocoderz/sportflix.app/releases/latest/download/sportflix.apk"
+              className="rounded-full bg-(--primary) px-6 py-4 text-xl font-medium text-white"
             >
               Télécharger l'apk
             </a>

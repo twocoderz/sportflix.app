@@ -11,9 +11,10 @@ export default function ChannelsPage() {
           <h1 className="mt-4 font-display text-4xl font-medium leading-tight tracking-tight text-(--text) sm:text-6xl">
             Toutes les chaînes
           </h1>
-          <p className="mt-6 text-lg leading-relaxed text-(--text-muted)">
-            Retrouvez vos chaînes préférées et explorez une sélection pensée
-            pour les amateurs d&apos;animation et de télévision en direct.
+          <p className="mt-6 text-xl leading-relaxed text-(--text-muted)">
+            Tous les grands matchs en direct. Premier League, La Liga, Ligue 1,
+            Bundesliga, Serie A, Champions League et Europa League. Scores en
+            temps réel et flux HD stables, sans abonnement.
           </p>
         </header>
 
