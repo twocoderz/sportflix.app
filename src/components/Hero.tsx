@@ -8,8 +8,7 @@ export default function Hero() {
       className="mx-auto flex max-w-8xl flex-col-reverse items-center gap-16 px-6 pb-12 lg:pb-40 pt-40 lg:flex-row lg:pt-48"
     >
       <div className="w-full lg:w-1/2">
-        {/* On va mettre une video ici */}
-        <VideoContainer src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" />
+        <VideoContainer srcBase="/video/sportflix" />
       </div>
 
       <div className="w-full lg:w-1/2">
